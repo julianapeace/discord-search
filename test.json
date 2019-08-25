@@ -1,0 +1,32 @@
+{
+  "meta": {
+    "users": {
+      "412005017621364748": {
+        "name": "Julie (✿◕‿◕)"
+      },
+      "400343752138424321": {
+        "name": "Jones"
+      }
+    },
+    "userindex": ["412005017621364748", "400343752138424321"],
+    "servers": [{
+      "name": "Bacchus",
+      "type": "GROUP"
+    }],
+    "channels": {
+      "585242862426259491": {
+        "server": 0,
+        "name": "theMilesChannel"
+      }
+    }
+  },
+  "data": {
+    "585242862426259491": {
+      "598511545311297537": {
+        "u": 0,
+        "t": 1562766672209,
+        "m": "I don't have that port option here, the drop down is, unique."
+      }
+    }
+  }
+}

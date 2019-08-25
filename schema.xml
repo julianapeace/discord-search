@@ -1,0 +1,30 @@
+<schema xmlns="http://optimal-systems.org/ns/dmscloud/schema/v4.0/"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://optimal-systems.org/ns/dmscloud/schema/v4.0/ dmsCloud-schema.xsd">
+        <propertyStringDefinition>
+            <id>u</id>
+            <propertyType>string</propertyType>
+            <cardinality>single</cardinality>
+            <required>true</required>
+        </propertyStringDefinition>
+        <propertyStringDefinition>
+            <id>t</id>
+            <propertyType>string</propertyType>
+            <cardinality>single</cardinality>
+            <required>true</required>
+        </propertyStringDefinition>
+      	<propertyStringDefinition>
+            <id>m</id>
+            <propertyType>string</propertyType>
+            <cardinality>single</cardinality>
+            <required>true</required>
+      	</propertyStringDefinition>
+      	<typeDocumentDefinition>
+            <id>singleMessage</id>
+            <baseId>enaio:document</baseId>
+            <propertyReference>u</propertyReference>
+            <propertyReference>t</propertyReference>
+            <propertyReference>m</propertyReference>
+      	    <contentStreamAllowed>required</contentStreamAllowed>
+        </typeDocumentDefinition>
+</schema>

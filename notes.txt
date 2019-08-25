@@ -1,0 +1,31 @@
+1. Generate a metadata.json:
+    <channel ID>_<user-1>_<user-2>_<user-n>
+2. Search a term
+3. return json file with u/t/m
+
+
+Example JSON FILE
+{
+  "u": 0,
+  "t": 1564349632263,
+  "m": "So I got a free macbook today. I can finally now enter the lush verdant interior of the IOS walled garden. Might do some work on the HERC  mobile apps. Logan suggested you could help me  in setting up the environment for running them"
+}
+
+1. get json file
+2. retrieve variables:
+  - channel ID
+  - channel Name
+  - User_n
+  - User-name
+
+3. write a loop that creates two files:
+  - a json file with u/t/m
+  - a metaData.json with the naming schema
+
+
+
+PRESENTATION PLAN
+Goal: A Global Search Built for developers using discord
+Automated cronjob updates conversation archives daily.
+
+Solution: Command line interface tool returns clean table.

@@ -1,0 +1,12 @@
+<template name="postdata">
+	<h1>post data</h1>
+    Metadata: <input type="file" value="metadata"><br>
+    Content: <input type="file" value="contentdata"><br>
+    <input class="postdata" type="button" onclick="upload()" value="Test">
+    {{#each data}}
+        <br><br>
+        {{text}}
+    {{/each}}
+<script type="text/javascript">
+</script>
+</template>

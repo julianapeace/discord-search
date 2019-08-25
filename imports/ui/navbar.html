@@ -1,0 +1,19 @@
+<template name="navbar">
+	<div id="mySidenav" class="sidenav">
+	  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+	  <a href="/postdata" onclick="closeNav()">Post</a>
+	  <a href="/listalldata" onclick="closeNav()">Your data</a>
+	  <a href="/search" onclick="closeNav()">Search</a>
+
+	</div>
+	<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+	<script>
+	function openNav() {
+	  document.getElementById("mySidenav").style.width = "250px";
+	}
+
+	function closeNav() {
+	  document.getElementById("mySidenav").style.width = "0";
+	}
+	</script>
+</template>
