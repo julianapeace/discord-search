@@ -1,7 +1,6 @@
 # Global Search for Discord
 
 * Homepage: [https://julianamei.com](https://julianamei.com)
-* Source: [https://github.com/zach-col/y](https://github.com/zach-col/y)
 * Twitter: [@sudobangbang](https://twitter.com/sudobangbang)
 
 #### Follow me on Twitter: @sudobangbang
