@@ -17,5 +17,3 @@
 ## License
 
 The code is available under the [MIT license](LICENSE.txt).
-# discord-search
-# discord-search
